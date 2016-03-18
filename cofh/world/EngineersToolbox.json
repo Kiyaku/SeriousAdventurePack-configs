@@ -1,0 +1,40 @@
+{
+    "bauxite": {
+        "template": {"type":"uniform","generator":"large-vein"},
+        "block": [
+            {"name": "eng_toolbox:ore", "metadata": 0}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 380,
+        "numClusters": 1,
+        "chunkChance": 15,
+        "minHeight": 24,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "emery": {
+        "template": {"type":"uniform","generator":"large-vein"},
+        "block": [
+            {"name": "eng_toolbox:ore", "metadata": 2}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 380,
+        "numClusters": 1,
+        "chunkChance": 15,
+        "minHeight": 24,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    }
+}

@@ -1,0 +1,150 @@
+{
+    "copper": {
+        "template": {"type":"uniform","generator":"large-vein"},
+        "block": [
+            {"name": "ThermalFoundation:Ore", "weight": 92},
+            {"name": "gold_ore", "weight": 8}
+        ],
+        "clusterSize": 384,
+        "numClusters": 1,
+        "chunkChance": 16,
+        "minHeight": 32,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "tin": {
+        "template": {"type":"uniform","generator":"large-vein"},
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 1, "weight": 95},
+            {"name": "ElectriCraft:electricraft_block_ore", "metadata": 4, "weight": 5}
+        ],
+        "clusterSize": 256,
+        "numClusters": 1,
+        "chunkChance": 20,
+        "minHeight": 20,
+        "maxHeight": 55,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "silver": {
+        "template": {"type":"uniform","generator":"large-vein"},
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight":80},
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight":20}
+        ],
+        "clusterSize": 160,
+        "numClusters": 1,
+        "chunkChance": 16,
+        "minHeight": 5,
+        "maxHeight": 30,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "lead": {
+        "template": {"type":"uniform","generator":"large-vein"},
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 90},
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 10}
+        ],
+        "clusterSize": 132,
+        "numClusters": 1,
+        "chunkChance": 12,
+        "minHeight": 10,
+        "maxHeight": 35,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "nickel": {
+        "template": {"type":"uniform","generator":"large-vein"},
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 92},
+            {"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 8}
+        ],
+        "clusterSize": 64,
+        "numClusters": 1,
+        "chunkChance": 20,
+        "minHeight": 5,
+        "maxHeight": 20,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "platinum": {
+        "template": {"type":"uniform","generator":"large-vein"},
+        "generator": "sparse-cluster",
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 25},
+            {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 75}
+        ],
+        "clusterSize": 96,
+        "numClusters": 1,
+        "chunkChance": 40,
+        "minHeight": 5,
+        "maxHeight": 30,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "copperHigh": {
+        "template": {"type":"uniform","generator":"large-vein"},
+        "block": [
+            {"name": "ThermalFoundation:Ore", "weight": 92},
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 8}
+        ],
+        "clusterSize": 256,
+        "numClusters": 1,
+        "chunkChance": 16,
+        "minHeight": 64,
+        "maxHeight": 96,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    }
+}

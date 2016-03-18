@@ -1,0 +1,79 @@
+{
+  "tabs": [
+    {
+      "uniqueName": "DEFAULT",
+      "displayName": "Default",
+      "sortIndex": 0,
+      "isVisible": true,
+      "stack": "minecraft:book",
+      "criteria": [
+        {
+          "uniqueName": "1455509076964",
+          "displayName": "New Criteria",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "kill",
+              "data": {
+                "entity": "customnpcs.NpcDragon"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "research",
+              "data": {
+                "researchName": "unlockFlight"
+              }
+            }
+          ],
+          "prereqs": [
+            "1455509190928"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 82,
+          "y": 24,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1455509190928",
+          "displayName": "New Criteria",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "research",
+              "data": {
+                "researchName": "unlockFlight"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "ExtraUtilities:angelRing 4"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 202,
+          "y": 24,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        }
+      ]
+    }
+  ],
+  "defaultTabID": "DEFAULT",
+  "disableCraftingUntilRewardAdded": false,
+  "disableUsageUntilRewardAdded": false,
+  "unclaimedTileCanCraftAnything": false,
+  "unclaimedTileCanUseAnythingForCrafting": false,
+  "interfaceItem": "minecraft:book",
+  "displayRequirementsOnNEIClick": true
+}

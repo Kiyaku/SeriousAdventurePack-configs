@@ -1,0 +1,80 @@
+{
+    "teslatite": {
+        "template": {"type":"uniform","generator":"large-vein"},
+        "block": [
+            { "name": "bluepower:teslatite_ore" }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 380,
+        "numClusters": 1,
+        "chunkChance": 18,
+        "minHeight": 1,
+        "maxHeight": 27,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "zinc": {
+        "template": {"type":"uniform","generator":"large-vein"},
+        "block": [
+            {"name": "bluepower:zinc_ore"}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 380,
+        "numClusters": 1,
+        "chunkChance": 18,
+        "minHeight": 11,
+        "maxHeight": 46,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "tungsten": {
+        "template": {"type":"uniform","generator":"large-vein"},
+        "block": [
+            {"name": "bluepower:tungsten_ore"}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 380,
+        "numClusters": 1,
+        "chunkChance": 18,
+        "minHeight": 0,
+        "maxHeight": 14,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "gems": {
+        "template": {"type":"uniform","generator":"large-vein"},
+        "block": [
+            {"name": "bluepower:ruby_ore", "weight": 33},
+            {"name": "bluepower:sapphire_ore", "weight": 33},
+            {"name": "bluepower:amethyst_ore", "weight": 33}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 360,
+        "numClusters": 1,
+        "chunkChance": 14,
+        "minHeight": 0,
+        "maxHeight": 53,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    }
+}

@@ -1,0 +1,216 @@
+{
+    "coal": {
+        "template": {"type":"uniform","generator":"large-vein"},
+        "block": [
+            {"name": "coal_ore", "weight": 97},
+            {"name": "diamond_ore", "weight": 1},
+            {"name": "ReactorCraft:reactorcraft_block_ore", "metadata": 1, "weight": 2}
+        ],
+        "material": "stone",
+        "clusterSize": 640,
+        "numClusters": 1,
+        "chunkChance": 12,
+        "minHeight": 20,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "iron": {
+        "template": {"type":"uniform","generator":"large-vein"},
+        "block": [
+            {"name": "iron_ore", "weight": 92},
+            {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 8}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 640,
+        "numClusters": 1,
+        "chunkChance": 18,
+        "minHeight": 24,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "gold": {
+        "template": {"type":"uniform","generator":"large-vein"},
+        "block": [
+            {"name": "gold_ore", "weight": 96},
+            {"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 4}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 128,
+        "numClusters": 1,
+        "chunkChance": 40,
+        "minHeight": 2,
+        "maxHeight": 32,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "redstone": {
+        "template": {"type":"uniform","generator":"large-vein"},
+        "block": "redstone_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 192,
+        "numClusters": 1,
+        "chunkChance": 16,
+        "minHeight": 2,
+        "maxHeight": 20,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "diamond": {
+        "template": {"type":"uniform","generator":"large-vein"},
+        "block": [
+            {"name": "diamond_ore", "weight": 32},
+            {"name": "coal_ore", "weight": 64},
+            {"name": "emerald_ore", "weight": 1},
+            {"name": "ReactorCraft:reactorcraft_block_ore", "metadata": 1, "weight": 3}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 240,
+        "numClusters": 1,
+        "chunkChance": 50,
+        "minHeight": 2,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "lapis": {
+        "template": {"type":"normal","generator":"large-vein"},
+        "block": "lapis_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 64,
+        "numClusters": 1,
+        "chunkChance": 32,
+        "meanHeight": 16,
+        "maxVariance": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "quartz": {
+        "template": {"type":"uniform","generator":"large-vein"},
+        "block": "quartz_ore",
+        "material": "minecraft:netherrack",
+        "clusterSize": 512,
+        "numClusters": 1,
+        "chunkChance": 16,
+        "minHeight": 10,
+        "maxHeight": 118,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "NETHER"}
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": []
+    },
+    "river_gold": {
+        "template": {
+            "type": "underfluid",
+            "generator": "cluster"
+        },
+        "block": [
+            {
+                "name": "Railcraft:ore",
+                "metadata": 8,
+                "weight" : 30
+            },
+            {
+                "name": "harvestcraft:salt",
+                "weight" : 10
+            },
+            {
+                "name": "minecraft:gravel",
+                "weight" : 60
+            }
+        ],
+        "material": [
+            "minecraft:sand",   
+            "minecraft:dirt",
+            "minecraft:clay",
+            "minecraft:gravel"
+        ],
+        "numClusters": 1,
+        "chunkChance": 1,
+        "clusterSize": 32,
+        "minHeight": 50,
+        "maxHeight": 130,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": "RIVER"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "mountain_iron": {
+        "template": {
+            "type": "uniform",
+            "generator": "large-vein"
+        },
+        "block": [
+            {
+                "name": "Railcraft:ore",
+                "metadata": 7,
+                "weight" : 70
+            },
+            {
+                "name": "minecraft:gravel",
+                "weight" : 30
+            }
+        ],
+        "material": [
+            "minecraft:dirt",
+            "minecraft:clay",
+            "minecraft:gravel",
+            "minecraft:cobblestone",
+            "minecraft:stone"
+        ],
+        "clusterSize": 100,
+        "numClusters": 1,
+        "chunkChance": 1,
+        "minHeight": 90,
+        "maxHeight": 220,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    }
+}

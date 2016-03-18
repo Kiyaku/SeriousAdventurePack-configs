@@ -1,0 +1,40 @@
+{
+  "tabs": [
+    {
+      "uniqueName": "1455536156581",
+      "displayName": "Immersive Engineering",
+      "sortIndex": 0,
+      "isVisible": true,
+      "stack": "ImmersiveEngineering:tool 3",
+      "criteria": [
+        {
+          "uniqueName": "1458327464434",
+          "displayName": "New Criteria",
+          "displayStack": "minecraft:stone",
+          "repeatable": 1,
+          "infinite": false,
+          "x": 130,
+          "y": 47,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        }
+      ]
+    },
+    {
+      "uniqueName": "DEFAULT",
+      "displayName": "Default",
+      "sortIndex": 0,
+      "isVisible": true,
+      "stack": "minecraft:grass",
+      "criteria": []
+    }
+  ],
+  "defaultTabID": "DEFAULT",
+  "disableCraftingUntilRewardAdded": false,
+  "disableUsageUntilRewardAdded": false,
+  "unclaimedTileCanCraftAnything": false,
+  "unclaimedTileCanUseAnythingForCrafting": false,
+  "interfaceItem": "minecraft:book",
+  "displayRequirementsOnNEIClick": true
+}

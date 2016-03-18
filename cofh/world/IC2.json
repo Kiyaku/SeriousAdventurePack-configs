@@ -1,0 +1,21 @@
+{
+    "uranium": {
+        "template": {"type":"uniform","generator":"large-vein"},
+        "block": "IC2:blockOreUran",
+        "material": [
+            {"name": "GalacticraftCore:tile.moonBlock", "metadata": 4}
+        ],
+        "clusterSize": 240,
+        "numClusters": 1,
+        "chunkChance": 12,
+        "minHeight": 2,
+        "maxHeight": 60,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -28
+        ]
+    }
+}
